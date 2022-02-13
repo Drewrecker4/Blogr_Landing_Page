@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --main-light-red: hsl(356, 100%, 66%);
+  --main-very-light-red: hsl(355, 100%, 74%);
+  --main-dark-blue: hsl(208, 49%, 24%);
+  --main-white: hsl(0, 0%, 100%);
+  --gray-blue: hsl(240, 2%, 79%);
+  --dark-gray-blue: hsl(207, 13%, 34%);
+  --dark-black-blue: hsl(240, 10%, 16%);
+  --gradient-very-light-red: hsl(13, 100%, 72%);
+  --gradient-light-red: hsl(353, 100%, 62%);
+  --gradient-dark-gray-blue: hsl(237, 17%, 21%);
+  --gradient-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--dark-gray-blue);
+  background: var(--main-white);
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-family: "Overpass", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
