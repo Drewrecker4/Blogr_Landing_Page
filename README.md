@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Drewrecker4/Blogr_Landing_Page]
-- Live Site URL: [https://drewrecker4.github.io/Blogr_Landing_Page/]
+- [Solution](https://github.com/Drewrecker4/Blogr_Landing_Page)
+- [Live Site](https://drewrecker4.github.io/Blogr_Landing_Page/)
 
 ## My process
 
