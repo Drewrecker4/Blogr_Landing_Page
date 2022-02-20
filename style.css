@@ -42,9 +42,16 @@ body {
   flex-direction: column;
 }
 
-header {
+.header-section {
   font-family: "Overpass", sans-serif;
+  background: url(./images/bg-pattern-intro-mobile.svg);
+  background-size: contain;
+  background-color: var(--gradient-light-red);
 }
+/*
+.logo {
+  background-color: black;
+}*/
 
 .attribution {
   font-size: 11px;
