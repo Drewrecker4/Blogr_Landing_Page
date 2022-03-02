@@ -83,10 +83,11 @@
         <button class="header-bottom-btn learn-more-btn">Learn More</button>
       </div>
     </header>
+
     <main>
-      <section class="future-design">
-        <h3>Designed for the future</h2>
-        <div>
+      <section aria-labelledby="future-design-title" class="future-design">
+        <h3 id="future-design-title">Designed for the future</h2>
+        <div class="future-design-img">
           <img
             src="./images/illustration-editor-mobile.svg"
             alt="fancy computer illustration"
@@ -109,12 +110,12 @@
         </p>
       </section>
 
-      <section class="infrastructure">
+      <section aria-labelledby="infrastructure-title" class="infrastructure">
+        <h2 id="infrastructure-title">State of the Art Infrastructure</h2>
         <div class="phone-container">
-          <img src="./images/illustration-phones.svg" alt="two phones displaying the Blogr app">
-          <img src="./images/bg-pattern-circles.svg" aria-hidden="true">
+          <img class="phone-img" src="./images/illustration-phones.svg" alt="two phones displaying the Blogr app">
+          <img class="circles-img" src="./images/bg-pattern-circles.svg" aria-hidden="true">
         </div>
-        <h2>State of the Art Infrastructure</h2>
         <p class="infrastructure-p">
           With reliability and speed in mind, worldwide data centers provide the
           backbone for ultra-fast connectivity. This ensures your site will load
@@ -123,8 +124,8 @@
         </p>
       </section>
 
-      <section class="details">
-        <h3>Free, open, simple</h3>
+      <section aria-labelledby="details-title" class="details">
+        <h3 id="details-title">Free, open, simple</h3>
         <p>
           Blogr is a free and open source application backed by a large
           community of helpful developers. It supports features such as code
@@ -140,6 +141,7 @@
         </p>
       </section>
     </main>
+    
     <footer>
       <img class="logo" src="./images/logo.svg" alt="Blogr logo" />
       Product Overview Pricing Marketplace Features Integrations Company About

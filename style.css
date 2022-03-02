@@ -201,6 +201,10 @@ h3 {
   color: var(--main-dark-blue);
 }
 
+.future-design-img {
+  text-align: center;
+}
+
 .editor-h3 {
   margin-top: 50px;
   margin: 50px 60px 15px 60px;
