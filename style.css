@@ -243,6 +243,15 @@ h2 {
   color: var(--main-white);
 }
 
+.laptop-img-container {
+  margin-top: 50px;
+}
+
+.details-headers {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
