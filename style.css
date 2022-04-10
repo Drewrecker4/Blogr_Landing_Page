@@ -252,6 +252,22 @@ h2 {
   margin-bottom: 20px;
 }
 
+footer {
+  background-color: var(--dark-black-blue);
+}
+
+.logo-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list {
+  justify-content: center;
+  text-align: center;
+  color: var(--main-white);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
