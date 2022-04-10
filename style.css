@@ -51,15 +51,16 @@ body {
       var(--gradient-very-light-red),
       var(--gradient-light-red)
     );
-  background-size: contain, 100%;
+  background-size: cover 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   /*background: linear-gradient(
     135deg,
     var(--gradient-very-light-red),
     var(--gradient-light-red)
   );*/
   color: var(--main-white);
-  border-radius: 0 0 0 100px;
+  border-radius: 0 0 0 80px;
 }
 
 .logo-and-nav-container {
@@ -224,19 +225,26 @@ p {
   padding: 0 40px;
 }
 
+.phone-container {
+  text-align: center;
+  margin-top: -200px;
+  transform: translateY(65%);
+  z-index: 1;
+}
+
 .infrastructure {
-  background: url(./images/illustration-phones.svg), url(./images/bg-pattern-circles.svg), var(--gradient-dark-gray-blue);
+  background: url(./images/bg-pattern-circles.svg), var(--gradient-dark-gray-blue);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -210px;
+  background-position-x: 50%;
   margin-top: 50px;
   padding: 200px 0 100px 0;
+  border-radius: 0 80px 0 80px;
 }
 
 .infrastructure-title {
   padding: 100px 0;
-}
-
-.phone-container {
-  margin-top: 80px;
-  background-color: var(--main-white);
 }
 
 h2 {
@@ -261,8 +269,9 @@ h2 {
 
 footer {
   background-color: var(--dark-black-blue);
-  border-radius: 0 100px 0 0;
+  border-radius: 0 80px 0 0;
   margin-top: 80px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .logo-footer-container {
@@ -286,33 +295,15 @@ footer {
 
 .footer-list-content {
   padding: 25px 0;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   
 }
 
 .footer-list-content > * {
-  padding: 4px 0;
+  padding: 5px 0;
   color: var(--gray-blue);
 }
-/*
-.footer-company-list {
-  padding: 25px 0;
-}
-
-.footer-company-list > * {
-  padding: 4px 0;
-  color: var(--gray-blue);
-}
-
-.footer-connect-list {
-  padding: 25px 0;
-}
-
-.footer-connect-list > * {
-  padding: 4px 0;
-  color: var(--gray-blue);
-}*/
 
 .attribution {
   font-size: 11px;
