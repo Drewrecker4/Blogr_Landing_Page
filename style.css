@@ -254,19 +254,58 @@ h2 {
 
 footer {
   background-color: var(--dark-black-blue);
+  border-radius: 0 100px 0 0;
+  margin-top: 80px;
 }
 
 .logo-footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 60px 0;
+}
+
+.footer-headings {
+  padding-top: 20px;
 }
 
 .footer-list {
   justify-content: center;
   text-align: center;
   color: var(--main-white);
+  font-weight: 900;
+  font-size: 18px;
 }
+
+.footer-list-content {
+  padding: 25px 0;
+  font-weight: 700;
+  font-size: 16px;
+  
+}
+
+.footer-list-content > * {
+  padding: 4px 0;
+  color: var(--gray-blue);
+}
+/*
+.footer-company-list {
+  padding: 25px 0;
+}
+
+.footer-company-list > * {
+  padding: 4px 0;
+  color: var(--gray-blue);
+}
+
+.footer-connect-list {
+  padding: 25px 0;
+}
+
+.footer-connect-list > * {
+  padding: 4px 0;
+  color: var(--gray-blue);
+}*/
 
 .attribution {
   font-size: 11px;
