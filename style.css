@@ -225,7 +225,13 @@ p {
 }
 
 .infrastructure {
-  background-color: var(--gradient-dark-gray-blue);
+  background: url(./images/illustration-phones.svg), url(./images/bg-pattern-circles.svg), var(--gradient-dark-gray-blue);
+  margin-top: 50px;
+  padding: 200px 0 100px 0;
+}
+
+.infrastructure-title {
+  padding: 100px 0;
 }
 
 .phone-container {
@@ -245,6 +251,7 @@ h2 {
 
 .laptop-img-container {
   margin-top: 50px;
+  text-align: center;
 }
 
 .details-headers {
