@@ -98,16 +98,18 @@ nav {
 .nav-list {
   display: flex;
   flex-direction: column;
-  
+  border-bottom: 1px solid var(--gray-blue);
   /*border: 1px solid black;*/
 }
 
 .nav-main-container {
-  /*display: flex;
-  flex-direction: row;*/
-  background: url("./images/icon-arrow-dark.svg");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  /*background: url("./images/icon-arrow-dark.svg");
   background-repeat: no-repeat;
-  background-position: 70% center;
+  background-position: 70% center;*/
 }
 /*
 .nav-main-container > * {
@@ -115,10 +117,15 @@ nav {
   
 }*/
 
-.nav-list > * {
+li {
   display: flex;
   flex-direction: column;
   padding: 12px 0;
+}
+
+.li-title {
+  /*outline: 1px solid black;*/
+  vertical-align: middle;
 }
 
 .nav-product-list {
@@ -134,10 +141,54 @@ nav {
 }
 
 .arrow-container {
-  width: 20px;
+  /*outline: 1px solid black;*/
+  vertical-align: middle;
+  padding: 0 8px;
+  /*width: 20px;*/
 }
 
-.nav-button-container {
+.nav-btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.nav-btn-container > * {
+  margin: 20px 0;
+}
+
+.login-btn {
+  background: none;
+  border: none;
+  color: var(--main-dark-blue);
+  font-weight: 900;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 50px;
+  width: 160px;
+  font-family: "Overpass", sans-serif;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--main-white);
+  padding: 15px;
+  border-radius: 50px;
+  width: 160px;
+  background: linear-gradient(
+    90deg,
+    var(--gradient-very-light-red),
+    var(--gradient-light-red)
+  );
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-container {
   flex: 1;
   text-align: end;
   display: table;
@@ -152,14 +203,14 @@ nav {
 .hamburger-icon {
   
 }*/
-
+/*
 .login-btn {
   display: none;
 }
 
 .sign-up-btn {
   display: none;
-}
+}*/
 
 .h1-container {
   text-align: center;
@@ -194,7 +245,7 @@ h1 {
 }
 
 .header-bottom-btn {
-  font-family: "Overpass", sans-serif;
+  /*font-family: "Overpass", sans-serif;*/
   background-color: transparent;
   color: var(--main-white);
   border: 1px solid var(--main-white);
@@ -273,8 +324,8 @@ p {
   border-radius: 0 80px 0 80px;
 }
 
-.infrastructure-title {
-  padding: 100px 0;
+#infrastructure-title {
+  padding: 20px 0;
 }
 
 h2 {
